@@ -1,0 +1,198 @@
+/* Reset default styling and set the font family */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for paragraphs */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Centered container for images */
+.centered-container {
+    text-align: center;
+}
+
+/* Paragraph styling */
+.left-paragraph,
+.right-paragraph {
+    width: 48%;
+    text-align: center;
+}
+
+.left-paragraph {
+    order: 1;
+}
+
+.right-paragraph {
+    order: 2;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Navigation links */
+.nav-list {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav-list p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #9f9999;
+}
+
+.nav-list a:hover {
+    color: rgb(76, 198, 175);
+}
+
+/* Logo styling */
+.logo-docplanner {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Paragraph text styling */
+.paragraph p {
+    line-height: 1.8;
+    color: #767272;
+}
+
+/* Header text styling */
+.header {
+    color: rgb(76, 198, 175);
+}
+
+/* Placeholder for domain-switcher illustration */
+.select-placeholder {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #a1a1a1;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+  .first h2,
+.second h2,
+.third h2 {
+  font-weight: 300; 
+  font-size: 240px; 
+  padding: 20px;
+}
+
+.first h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .first h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  .second h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .second h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  .third h1{
+    font-size: 24px;
+    margin: 10px 0;
+color: #fff;
+  }
+  .third h2{
+    font-size: 16px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  
+  .third,
+.second {
+  margin-bottom: 20px; 
+}
+
+.second h2 {
+    font-size: 22px; 
+    
+  }
+  .first h2 {
+    font-size: 22px;
+  }
+  .third h2 {
+    font-size:22px;
+  }
+
+  .first {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(45, 209, 185);
+  }
+  .second {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(69, 146, 224);
+  }
+  .third {
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(32, 32, 55);
+  }
+  
+  
+  
+  
